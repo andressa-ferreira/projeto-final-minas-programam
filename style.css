@@ -27,18 +27,20 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(231, 231, 209);
 }
 
 .logo{
     position: relative;
-    color: chocolate;
-    
 }
+
+
+
  
 .navegacao{
     color: #fff;
-    background: #d2691e;
-    text-decoration: none;
+    background: #639e47;
+    text-decoration: inherit;
     font-weight: 500;
     letter-spacing: 1px;
     padding: 2px 15px;
@@ -49,7 +51,7 @@ header{
     margin-right: 30px;
 }
 .navegacao a:hover{
-    background: #fff;
+    background: rgb(247, 194, 135);
 
 }
 
@@ -66,4 +68,11 @@ header{
     letter-spacing: 2px;
     line-height: 60px;
     margin-bottom: 30px;
+}
+
+.footer{
+    background-color: #639e47;
+    height: 20vh;
+    display: flex;
+    align-items: center;
 }
