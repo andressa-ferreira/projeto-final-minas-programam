@@ -22,23 +22,39 @@ header{
     position: relative;
     top: 0;
     width: 100%;
-    padding: 50px 200px;
+    padding: 30px 100px;
     display: flex;
     justify-content: space-between;
-    align-items: left;
+    align-items: center;
     background-color: rgb(231, 231, 209);
 }
+
+header .logo{
+    position:relative;
+    color:rgba(33, 58, 27, 0.616);
+    font-size:30px;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
  
+header .navegacao a{
+    color: #000;
+    text-decoration:none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px;
+    border-radius:20px;
+}
+
 .navegacao{
     color: #fff;
     background: #639e47;
-    text-decoration: inherit;
+    text-decoration: none;
     font-weight: 500;
     letter-spacing: 2px;
     padding: 10px 20px;
     border-radius: 30px;
-    
-
 }
 .navegacao a:not(:last-child){
     margin-right: 30px;
@@ -49,36 +65,56 @@ header{
 }
 
 .conteudo{
-    max-width: 1400px;
-    margin: 60px 150px;
+    max-width: none;
+    margin: none;
     background-color: #000;
 }
  #fotoRedonda{
-    height: 600px;
-    width: 600px;
+    height: 450px;
+    width: 450px;
     border-radius: 50%;
+    
  }
  
-.conteudo .info h1{
-    color: #fff;
-    font-size: px;
+.conteudo .info h2{
+    color: rgb(208, 231, 203);
+    font-size: 80px;
     font-weight: 600;
-    letter-spacing: 2px;
-    line-height: 30px;
+    letter-spacing: 3px;
+    line-height: 80px;
     margin-bottom: 90px;
-}
-.content .info h1 span{
+    margin-top: 90px;
+    margin-right: 200px;
+    margin-left: 100px;
+    }
+
+.conteudo .info h2 span{
     color:#fff;
-    font: size 2px;
-    font-weight: 600;
+    font: size 3px;
+    font-weight: 200;
 }
 
-.content .info p{
+.conteudo .info p{
     font-size: 20px;
-    font-weight: 500;
-    margin-bottom:40px;
+    font-weight:600;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 200px;
+    color:#fff;
 }
-.content .extra{
+.botao{
+   background-color: #4CAF50;
+          border: none;
+          color: #fff;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+font-size: 16px;
+        }
+
+ 
+.conteudo .extra{
     color:#fff;
     background:rgb(44, 141, 60);
     text-decoration:none;
@@ -88,10 +124,6 @@ header{
     padding: 10px 20px;
     border-radius: 5px;
     
-}
-
-.content #info-extra:hover{
-    background:rgba(33, 58, 27, 0.616)
 }
 .icones{
     display:flex;
