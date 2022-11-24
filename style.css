@@ -111,6 +111,7 @@ header .navegacao a{
           text-decoration: none;
           display: inline-block;
 font-size: 16px;
+
         }
 
  
@@ -171,3 +172,14 @@ font-size: 16px;
     margin:0
 }
 
+#fotoGrafico{
+    border-radius: 15%;
+    ;
+    
+}
+
+.textofinal{
+    margin: none;
+    background-color: rgb(245, 245, 229);
+    max-width: none;
+}

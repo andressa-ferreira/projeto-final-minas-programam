@@ -5,3 +5,8 @@ Preciso encontrar melhores imagens para adicionar no site, cerca de 3 imagens e 
 
 # 23/11
 -conserto dos erros no html e finalização da landing page 
+- consertos foram feitos e a landing page ficou pronta, tudo funcionando normalmente. 
+ps. adicionar link no Saiba Mais da aba de navegação*
+
+#24/11 
+falta apenas editar os ultimos textos no html. o código já está pronto :)
