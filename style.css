@@ -170,16 +170,12 @@ font-size: 16px;
 
 .textos p{
     margin:0
+
 }
 
 #fotoGrafico{
-    border-radius: 15%;
+    border-radius: 14%;
     ;
     
 }
 
-.textofinal{
-    margin: none;
-    background-color: rgb(245, 245, 229);
-    max-width: none;
-}
